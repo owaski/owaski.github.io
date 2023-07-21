@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Siqi Ouyang"
-  avatar           : "Selfie.png"
+  avatar           : "https://github.com/owaski/owaski.github.io/blob/master/images/Selfie.jpeg"
   bio              : "PhD Student at UC Santa Barbara CS"
   location         : "Goleta, CA"
   employer         :

@@ -11,3 +11,5 @@ redirect_from:
 Hi, I'm currently a 2nd year PhD student at UC Santa Barbara advised by Prof. [Lei Li](https://lileicc.github.io/index.html). Previously, I received my B.Eng. from IIIS at Tsinghua Univesity (a.k.a. Yao Class), advised by Prof. Yi Wu. 
 
 My current research focus is on speech translation, both offline and simultaneous. The ambition is to build a system that can translate speech in real-time, enabling seamless communication around the world. Other than that, I'm also interested in Large Langauge Model (LLM) application, automatic drug discovery.
+
+Check my resume [here](https://github.com/owaski/owaski.github.io/blob/master/files/CV-07-21-2023.pdf).
