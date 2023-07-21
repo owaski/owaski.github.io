@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Siqi Ouyang"
-  avatar           : "/images/Selfie.jpeg"
+  avatar           : "Selfie.jpeg"
   bio              : "PhD Student at UC Santa Barbara CS"
   location         : "Goleta, CA"
   employer         :
