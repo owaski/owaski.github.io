@@ -5,12 +5,14 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+**WACO: Word-Aligned Contrastive Learning for Speech Translation**
+*ACL 2023*
+\[[Blog](https://owaski.github.io/WACO/)\] \[[Paper](https://aclanthology.org/2023.acl-long.216/)\] \[[Code](https://github.com/owaski/waco)\]
 
-{% include base_path %}
+**Pre-trained Language Models Can be Fully Zero-Shot Learners**
+*ACL 2023*
+\[[Paper](https://aclanthology.org/2023.acl-long.869/)\] \[[Code](https://github.com/XuandongZhao/NPPrompt)\]
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+**On the Impact of Noises in Crowd-Sourced Data for Speech Translation**
+*IWSLT 2022*
+\[[Paper](https://aclanthology.org/2022.iwslt-1.9/)\] \[[Code](https://github.com/owaski/MuST-C-clean)\]
