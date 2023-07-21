@@ -8,4 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm currently a 2nd year PhD student at UC Santa Barbara advised by Prof. [Lei Li](https://lileicc.github.io/index.html). My current research focus is on speech translation, both offline and simultaneous. Previously, I received my B.Eng from IIIS at Tsinghua Univesity (a.k.a. Yao Class), advised by Prof. Yi Wu. Prior to that, I also earned a goal medal in China National Olympiad in Informatics in 2016. 
+Hi, I'm currently a 2nd year PhD student at UC Santa Barbara advised by Prof. [Lei Li](https://lileicc.github.io/index.html). Previously, I received my B.Eng. from IIIS at Tsinghua Univesity (a.k.a. Yao Class), advised by Prof. Yi Wu. 
+
+My current research focus is on speech translation, both offline and simultaneous. The ambition is to build a system that can translate speech in real-time, enabling seamless communication around the world. Other than that, I'm also interested in Large Langauge Model (LLM) application, automatic drug discovery.
