@@ -7,7 +7,7 @@ author_profile: true
 
 **AutoPlan: Automatic Planning of Interactive Decision-Making Tasks With Large Language Models**<br>
 *EMNLP 2023 Long Findings*<br>
-<!-- \[[Blog](https://owaski.github.io/WACO/)\] \[[Paper](https://aclanthology.org/2023.acl-long.216/)\] \[[Code](https://github.com/owaski/waco)\] -->
+\[[Paper](https://aclanthology.org/2023.findings-emnlp.205/)\] \[[Code](https://github.com/owaski/AutoPlan)\]
 
 **WACO: Word-Aligned Contrastive Learning for Speech Translation**<br>
 *ACL 2023 Long*<br>
