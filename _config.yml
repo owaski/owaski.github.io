@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Siqi Ouyang"
 title_separator          : "-"
 name                     : &name "Siqi Ouyang"
-description              : &description "PhD Student at UC Santa Barbara CS"
+description              : &description "PhD Student at CMU LTI"
 url                      : https://owaski.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "owaski/owaski.github.io"
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Siqi Ouyang"
   avatar           : "Selfie.jpeg"
-  bio              : "PhD Student at UC Santa Barbara CS"
-  location         : "Goleta, CA"
+  bio              : "PhD Student at CMU LTI"
+  location         : "Pittsburgh, PA"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=D7mgvhAAAAAJ&hl=en"
