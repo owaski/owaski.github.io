@@ -1,0 +1,10 @@
+{% assign awards = site.awards | where: "selected", true | sort: "year" | reverse %}
+
+{% for award in awards %}
+  <div class="award-item">
+    <h6 class="award-title">{{ award.title }}</h6>
+    <div class="award-content">
+      {{ award.content | markdownify }}
+    </div>
+  </div>
+{% endfor %} 

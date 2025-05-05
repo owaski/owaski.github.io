@@ -184,6 +184,11 @@
     <div class="periodical">
       {{ entry.note | strip }}
     </div>
+    {% if entry.comment %}
+    <div class="comment" style="color: #666; font-style: italic;">
+      {{ entry.comment | strip }}
+    </div>
+    {% endif %}
 
     <!-- Links/Buttons -->
     <div class="links">
