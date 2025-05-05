@@ -1430,4 +1430,10 @@ figure.cover {
       text-decoration: underline;
     }
   }
+
+  table {
+    td, th {
+      color: var(--global-text-color);
+    }
+  }
 }
