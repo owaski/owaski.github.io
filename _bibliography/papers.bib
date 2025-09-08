@@ -1,19 +1,25 @@
 ---
 ---
 
-@misc{ouyang2025infinisstsimultaneoustranslationunbounded,
-    abbr={Preprint},
-    title={InfiniSST: Simultaneous Translation of Unbounded Speech with Large Language Model}, 
-    author={Siqi Ouyang and Xi Xu and Lei Li},
-    abstract={Simultaneous translation of unbounded streaming speech remains a challenging problem due to the need for effectively processing the history speech context and past translations so that quality and latency, including computation overhead, can be balanced. Most prior works assume pre-segmented speech, limiting their real-world applicability. In this paper, we propose InfiniSST, a novel approach that formulates SST as a multi-turn dialogue task, enabling seamless translation of unbounded speech. We construct translation trajectories and robust segments from MuST-C with multi-latency augmentation during training and develop a key-value (KV) cache management strategy to facilitate efficient inference. Experiments on MuST-C En-Es, En-De, and En-Zh demonstrate that InfiniSST reduces computation-aware latency by 0.5 to 1 second while maintaining the same translation quality compared to baselines. Ablation studies further validate the contributions of our data construction and cache management strategy.},
-    year={2025},
-    month={Mar},
-    eprint={2503.02969},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL},
-    pdf={https://www.arxiv.org/pdf/2503.02969}, 
-    selected={true},
-    code={https://github.com/LeiLiLab/InfiniSST},
+@inproceedings{ouyang-etal-2025-infinisst,
+    title = "{I}nfini{SST}: Simultaneous Translation of Unbounded Speech with Large Language Model",
+    author = "Ouyang, Siqi  and
+      Xu, Xi  and
+      Li, Lei",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-acl.157/",
+    doi = "10.18653/v1/2025.findings-acl.157",
+    pages = "3032--3046",
+    ISBN = "979-8-89176-256-5",
+    abstract = "Simultaneous translation of unbounded streaming speech remains a challenging problem due to the need for effectively processing the historical speech context and past translations so that quality and latency, including computation overhead, can be balanced. Most prior works assume pre-segmented speech, limiting their real-world applicability. In this paper, we propose InfiniSST, a novel approach that formulates SST as a multi-turn dialogue task, enabling seamless translation of unbounded speech. We construct translation trajectories and robust segments from MuST-C with multi-latency augmentation during training and develop a key-value (KV) cache management strategy to facilitate efficient inference. Experiments on MuST-C En-Es, En-De, and En-Zh demonstrate that InfiniSST reduces computation-aware latency by 0.5 to 1 second while maintaining the same translation quality compared to baselines. Ablation studies further validate the contributions of our data construction and cache management strategy. Code is released at https://github.com/LeiLiLab/InfiniSST."
 }
 
 @inproceedings{ouyang-etal-2025-anticipating,
