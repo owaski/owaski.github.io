@@ -61,6 +61,12 @@ ninja.data = [{
           section: "News",},{id: "news-give-a-talk-at-ttic-summer-workshop-on-foundations-of-speech-and-audio-foundation-models",
           title: 'Give a talk at TTIC Summer Workshop on Foundations of Speech and Audio...',
           description: "",
+          section: "News",},{id: "news-give-a-talk-at-speech-lunch-here-is-the-slide",
+          title: 'Give a talk at Speech Lunch. Here is the slide.',
+          description: "",
+          section: "News",},{id: "news-give-a-lecture-at-speech-technology-for-conversational-ai-course-at-cmu",
+          title: 'Give a lecture at Speech Technology for Conversational AI course at CMU.',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
