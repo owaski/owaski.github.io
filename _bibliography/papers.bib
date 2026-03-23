@@ -1,6 +1,23 @@
 ---
 ---
 
+@article{luo2026rasst,
+    abbr={Preprint},
+    selected={true},
+    title = "{RASST}: Fast Cross-modal Retrieval-Augmented Simultaneous Speech Translation",
+    author = "Luo, Jiaxuan and
+      Ouyang, Siqi and
+      Li, Lei",
+    month={Jan},
+    year = "2026",
+    eprint = "2601.22777",
+    archivePrefix = "arXiv",
+    primaryClass = "cs.CL",
+    url = "https://arxiv.org/abs/2601.22777",
+    abstract = "Simultaneous speech translation (SST) produces target text incrementally from partial speech input. Recent speech large language models (Speech LLMs) have substantially improved SST quality, yet they still struggle to correctly translate rare and domain-specific terminology. In this paper, we introduce RASST, which integrates cross-modal retrieval into the SST pipeline using a lightweight speech-text retriever and sliding-window retrieval to provide terminology hints and enhance translation accuracy. Experiments demonstrate improvements of up to 16% in terminology translation accuracy and up to 3 BLEU points in overall quality across three language directions.",
+    pdf = {https://arxiv.org/pdf/2601.22777},
+}
+
 @inproceedings{ouyang-etal-2025-infinisst,
     title = "{I}nfini{SST}: Simultaneous Translation of Unbounded Speech with Large Language Model",
     author = "Ouyang, Siqi  and
@@ -16,9 +33,13 @@
     address = "Vienna, Austria",
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2025.findings-acl.157/",
-    doi = "10.18653/v1/2025.findings-acl.157",
     pages = "3032--3046",
     ISBN = "979-8-89176-256-5",
+    abstract = "Simultaneous translation of unbounded streaming speech remains a challenging problem due to the need for effectively processing the historical speech context and past translations so that quality and latency, including computation overhead, can be balanced. Most prior works assume pre-segmented speech, limiting their real-world applicability. In this paper, we propose InfiniSST, a novel approach that formulates SST as a multi-turn dialogue task, enabling seamless translation of unbounded speech. We construct translation trajectories and robust segments from MuST-C with multi-latency augmentation during training and develop a key-value (KV) cache management strategy to facilitate efficient inference. Experiments on MuST-C En-Es, En-De, and En-Zh demonstrate that InfiniSST reduces computation-aware latency by 0.5 to 1 second while maintaining the same translation quality compared to baselines. Ablation studies further validate the contributions of our data construction and cache management strategy. Code is released at https://github.com/LeiLiLab/InfiniSST.",
+    abbr={ACL},
+    selected={true},
+    code={https://github.com/LeiLiLab/InfiniSST},
+    pdf={https://aclanthology.org/2025.findings-acl.157.pdf},
 }
 
 @inproceedings{ouyang-etal-2025-anticipating,
@@ -105,7 +126,6 @@ abbr={Preprint},
     address = "Bangkok, Thailand (in-person and online)",
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2024.iwslt-1.20/",
-    doi = "10.18653/v1/2024.iwslt-1.20",
     pages = "154--159",
     abstract = "This paper describes CMU`s submission to the IWSLT 2024 Simultaneous Speech Translation (SST) task for translating English speech to German text in a streaming manner. Our end-to-end speech-to-text (ST) system integrates the WavLM speech encoder, a modality adapter, and the Llama2-7B-Base model as the decoder. We employ a two-stage training approach: initially, we align the representations of speech and text, followed by full fine-tuning. Both stages are trained on MuST-c v2 data with cross-entropy loss. We adapt our offline ST model for SST using a simple fixed hold-n policy. Experiments show that our model obtains an offline BLEU score of 31.1 and a BLEU score of 29.5 under 2 seconds latency on the MuST-C-v2 tst-COMMON.",
     pdf={https://aclanthology.org/2024.iwslt-1.20.pdf},
