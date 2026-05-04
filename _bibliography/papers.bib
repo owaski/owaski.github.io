@@ -1,6 +1,27 @@
 ---
 ---
 
+@inproceedings{ouyang2026hpo,
+    abbr={ACL},
+    selected={true},
+    title = "Hierarchical Policy Optimization for Simultaneous Translation of Unbounded Speech",
+    author = "Ouyang, Siqi and
+      Ding, Shuoyang and
+      Hrinchuk, Oleksii and
+      Lavrukhin, Vitaly and
+      Yan, Brian and
+      Ginsburg, Boris and
+      Li, Lei",
+    booktitle = "Proceedings of the 64rd Annual Meeting of the Association for Computational Linguistics",
+    month={Jul},
+    year = "2026",
+    url = "https://arxiv.org/abs/2604.21045",
+    comment = {Oral},
+    abstract = "Simultaneous speech translation (SST) generates translations while receiving partial speech input. Recent advances show that large language models (LLMs) can substantially improve SST quality, but at the cost of high computational overhead. To reduce this cost, prior work reformulates SST as a multi-turn dialogue task, enabling full reuse of the LLM's key-value (KV) cache and eliminating redundant feature recomputation. However, this approach relies on supervised fine-tuning (SFT) data in dialogue form, for which few human annotations exist, and existing synthesis methods cannot guarantee data quality. In this work, we propose a Hierarchical Policy Optimization (HPO) approach that post-train models trained on imperfect SFT data. We introduce a hierarchical reward that balances translation quality and latency objectives. Experiments on English to Chinese/German/Japanese demonstrate improvements of over +7 COMET score and +1.25 MetricX score at a latency of 1.5 seconds. Comprehensive ablation studies further validate the effectiveness of different quality rewards, hierarchical reward formulations, and segmentation strategies.",
+    pdf = {https://arxiv.org/pdf/2604.21045},
+    code = {https://github.com/owaski/HPO},
+}
+
 @article{luo2026rasst,
     abbr={Preprint},
     selected={true},
